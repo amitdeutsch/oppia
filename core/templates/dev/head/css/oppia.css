@@ -85,8 +85,8 @@ html {
 }
 
 body {
-  color: rgba(0,0,0,0.87);
-  font-family: "Roboto", Arial, sans-serif;
+  color: rgba(0,0,0,0.94);
+  font-family: "Open Sans", Arial, sans-serif;
   /*
     A font-size of 1.6em sets the default font-size on Oppia to 16px, though
     this will scale depending on the user's font-size preferences set via
@@ -94,6 +94,7 @@ body {
   */
   font-size: 1.6em;
   height: 100%;
+  line-height: 1.5em;
   margin: 0 auto;
   padding: 0;
   width: 100%;
@@ -417,9 +418,9 @@ textarea {
 .oppia-navbar-breadcrumb {
   color: #fff;
   cursor: default;
-  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  font-family: "Capriola", "Open Sans", Arial, sans-serif;
   font-size: 20px;
-  padding-top: 13px;
+  padding-top: 15px;
 }
 
 .oppia-navbar-breadcrumb-separator {
@@ -727,7 +728,7 @@ md-card.oppia-gallery-tile {
 }
 .oppia-gallery-tile-title {
   color: #333;
-  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  font-family: "Capriola", "Open Sans", Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -1547,7 +1548,7 @@ ul.oppia-dashboard-tiles {
 }
 .oppia-gallery-banner-content {
   color: #fff;
-  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  font-family: "Capriola", "Open Sans", Arial, sans-serif;
   font-size: 4em;
   position: absolute;
   text-align: center;
@@ -1564,7 +1565,7 @@ ul.oppia-dashboard-tiles {
 
 .oppia-gallery-banner-tagline {
   color: #fff;
-  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  font-family: "Capriola", "Open Sans", Arial, sans-serif;
   font-size: 2em;
   padding-top: 250px;
 }
@@ -1724,7 +1725,7 @@ div#ng-curtain {
 
 .oppia-logo {
   display: inline-block;
-  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  font-family: "Capriola", "Open Sans", Arial, sans-serif;
   font-size: 21px;
   font-weight: 300;
   height: 40px;
@@ -2175,7 +2176,7 @@ md-card.preview-conversation-skin-supplemental-card {
 .oppia-info-card-title {
   bottom: 0;
   color: white;
-  font-family: "Capriola", "Roboto", Arial, sans-serif;
+  font-family: "Capriola", "Open Sans", Arial, sans-serif;
   margin: 12px 0;
   padding: 0;
   position: absolute;

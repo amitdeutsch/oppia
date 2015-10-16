@@ -21,10 +21,11 @@
 html, body {
   background: url('/images/general/background.png') no-repeat center center fixed;
   background-color: #eee;
-  color: rgba(0,0,0,0.87);
-  font-family: 'Roboto', Arial, sans-serif;
-  font-size: 1.0em;
   background-size: cover;
+  color: rgba(0,0,0,0.94);
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1.0em;
+  line-height: 1.5em;
 }
 
 /*
