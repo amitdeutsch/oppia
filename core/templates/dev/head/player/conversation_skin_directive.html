@@ -175,13 +175,13 @@
         </div>
       </div>
     </div>
-  </div>
 
-
-  <oppia-gadget-panel panel-contents="exploration.getGadgetPanelsContents().bottom"
+    <oppia-gadget-panel panel-contents="exploration.getGadgetPanelsContents().bottom"
                       class="conversation-skin-bottom-gadget-panel"
                       current-state-name="activeCard.stateName">
-  </oppia-gadget-panel>
+    </oppia-gadget-panel>
+
+  </div>
 
   <div ng-if="isOnTerminalCard() && isLoggedIn && !isInPreviewMode && !isIframed && isCurrentCardAtEndOfTranscript()"
        class="conversation-skin-final-ratings">
@@ -326,13 +326,13 @@
     }
 
     .conversation-skin-bottom-gadget-panel {
-      bottom: 4px;
+      display: block;
       left: 0;
       margin: 0 auto;
       max-height: 135px;
       max-width: 400px;
       min-width: 150px;
-      position: fixed;
+      position: relative;
       right: 0;
       width: 360px;
     }
@@ -343,6 +343,7 @@
          card, plus a 12px margin between them.
       */
       max-width: 1084px;
+      overflow: auto;
     }
 
     .conversation-skin-help-card {
@@ -573,7 +574,6 @@
     .conversation-skin-supplemental-card-container {
       display: inline-block;
       margin: 0 auto;
-      position: absolute;
       width: 100%;
     }
 
@@ -673,18 +673,6 @@
     .conversation-skin-supplemental-card.ng-hide {
       opacity: 0;
       transform: translateX(1000px);
-    }
-
-    @media(max-width: 1119px) {
-      /*
-        This is needed so that the left/right animation works smoothly with a
-        supplemental interaction on small screens. However, it needs the extra
-        'has-subsidiary-cards' class in order to avoid the final ratings section
-        displaying at the top of the page.
-      */
-      .conversation-skin-main-tutor-card.conversation-skin-has-subsidiary-cards {
-        position: absolute;
-      }
     }
 
     @media(max-width: 600px) {
